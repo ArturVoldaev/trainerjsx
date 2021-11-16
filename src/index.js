@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+let arrTask3 = [1,2,3,4,5];
+let arrTask4 = [1,0,1,0];
+
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <App arrTask3={arrTask3} arrTask4={arrTask4} />
   </React.StrictMode>,
   document.getElementById('root')
 );
